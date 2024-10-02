@@ -40,6 +40,9 @@ class _LoginState extends State<Login> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Image.asset(
+                'assets/images/logo.png'
+              ),
               inputText("Username", _usernameController),
               const SizedBox(height: 20),
               inputText("Password", _passwordController, isPass: true),
